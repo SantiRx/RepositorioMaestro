@@ -1,0 +1,10 @@
+/* Estilo para el borde blanco al hacer hover */
+li:hover {
+  border-bottom: 5px solid white;
+}
+
+/* Estilo para el menú activo */
+.active {
+  border-bottom: 5px solid white;
+}
+
