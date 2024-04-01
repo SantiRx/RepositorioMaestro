@@ -3,8 +3,7 @@ const pages = [
 ];
 
 const components = [
-  hero,
-  seccionEventos
+  hero
 
 ];
 
@@ -14,8 +13,7 @@ export { pages, components};
 function principal(){
     return {
         view: () => [
-           m(hero),
-           m(seccionEventos)
+           m(hero)
         ]
     }
 }
