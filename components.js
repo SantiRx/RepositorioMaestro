@@ -1,11 +1,10 @@
 const pages = [
-  //Menu,
-  hero
+  principal
 ];
 
 const components = [
-  //Menu,
-  hero
+  hero,
+  seccionEventos
 
 ];
 
@@ -15,8 +14,8 @@ export { pages, components};
 function principal(){
     return {
         view: () => [
-           //Menu,
-           hero
+           m(hero),
+           m(seccionEventos)
         ]
     }
 }
